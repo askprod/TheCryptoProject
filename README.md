@@ -1,5 +1,5 @@
 # Live link : https://cryptoroulettepault.herokuapp.com/
-* You should get a `r R14 (Memory quota exceeded)`when you do a search. Since the site is not optimized.
+* You should get a `r R14 (Memory quota exceeded)`when you do a search on the Heroku App. Since the site is not optimized.
 * If you want to do a search, you should run it locally as followed:
 
 * You need to `rails db:create`, `rails db:migrate`, `rails db:seed`
