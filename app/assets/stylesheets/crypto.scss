@@ -1,0 +1,28 @@
+// Place all the styles related to the Crypto controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#outer {
+    width: 100%;
+    text-align: center;
+  }
+  
+#inner {
+    display: inline-block;
+    border-radius: 50%;
+  }
+
+.lightblue {
+  background-color: azure;
+}
+
+body {
+    background-color: rgb(233, 235, 234);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top {
+  background-color: bisque;
+}
+

@@ -1,0 +1,23 @@
+<div id="outer">
+    <div class="top">
+        <h1>Welcome to Crypto Roulette</h1>
+    </div>
+        <div id="inner" class="lightblue">
+            <% if Number.second.nil? %>
+            <h1>Please seacrch a crypto to sho it's value.</h1>
+            <% else %>
+            <h2>Your last choice was <b><%= Crypto.find(Number.last.number).name %></b><h2> 
+            <h2>It's current value is <b><%= Crypto.find(Number.last.number).value %>$</h2>
+            <% end %>
+        </div>
+            <h2>Search your Crypto:</h2>
+            <%= form_for :crypto, method: :post do |f| %>
+            <%= f.text_field :name %>
+            <%= f.submit "Search" %>
+            <% end %>
+        <br>    
+        <div id="inner">
+            <h4><%= link_to 'Here', 'crypto/show'%> is a list of all the cryptos, if you need it.</h4>
+            <br>
+        </div>
+</div>
